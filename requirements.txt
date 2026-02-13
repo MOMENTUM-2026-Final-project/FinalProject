@@ -1,9 +1,21 @@
-langgraph==0.6.10
-langchain==0.3.27
-langchain-core==0.3.79
-langchain-google-genai==2.1.12
-python-dotenv==1.1.1
-pandas==2.3.3
-numpy==2.3.3
-streamlit==1.52.1
-plotly==6.5.0
+# 핵심 프레임워크 (자동 버전 해결)
+langchain
+langchain-core
+langchain-community
+langgraph
+
+# Google AI
+langchain-google-genai
+google-generativeai
+
+# 검색 및 유틸리티
+tavily-python
+faiss-cpu
+python-dotenv
+pandas
+numpy
+PyPDF2
+streamlit
+plotly
+Pillow
+pydantic>=2.0
